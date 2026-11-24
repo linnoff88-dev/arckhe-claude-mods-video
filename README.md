@@ -1,8 +1,8 @@
-﻿# Claude Mods em vÃ­deo
+# Claude Mods em vÃ­deo
 
 VÃ­deo explicativo, com avatar e voz do Nei, sobre os **Mods do Claude Code** (lanÃ§ados em 1Âº de outubro de 2026): o que Ã© um mod, como ele funciona por eventos (observar, alterar ou assumir), cinco exemplos, como criar o seu conversando com o Claude Code e os cuidados â€” temporÃ¡rio atÃ© virar plugin, sÃ³ de fonte confiÃ¡vel e consumo de cota.
 
-**[â–¶ Assistir](https://inematds.github.io/claude-mods-video/videos/)** Â· **[â–¶ Watch in English](https://inematds.github.io/claude-mods-video/videos/en/)** Â· **[â–¶ Ver en espaÃ±ol](https://inematds.github.io/claude-mods-video/videos/es/)**
+**[â–¶ Assistir](https://linnoff88-dev.github.io/ Â· **[â–¶ Watch in English](https://linnoff88-dev.github.io/ Â· **[â–¶ Ver en espaÃ±ol](https://linnoff88-dev.github.io/
 
 ## ConteÃºdo
 
@@ -20,10 +20,10 @@ VÃ­deo explicativo, com avatar e voz do Nei, sobre os **Mods do Claude Code** 
 
 ## ProduÃ§Ã£o
 
-Roteiro em `roteiro/pt.json`. Avatar gerado pelo estÃºdio do HeyGen (assinatura, sem API), animaÃ§Ãµes sincronizadas Ã  fala pelo [Explicavideos v2](https://inematds.github.io/explicavideos/guia/), publicaÃ§Ã£o por `scripts/publica.py` (MP4 e SRT no Release `video-v2.0.0`, player com capÃ­tulos em `videos/`). VersÃµes EN/ES: roteiro traduzido pelo Codex (assinatura), avatar falando no idioma, publicadas por `scripts/publica_idiomas.py` em `videos/en/` e `videos/es/`.
+Roteiro em `roteiro/pt.json`. Avatar gerado pelo estÃºdio do HeyGen (assinatura, sem API), animaÃ§Ãµes sincronizadas Ã  fala pelo [Explicavideos v2](https://linnoff88-dev.github.io/ publicaÃ§Ã£o por `scripts/publica.py` (MP4 e SRT no Release `video-v2.0.0`, player com capÃ­tulos em `videos/`). VersÃµes EN/ES: roteiro traduzido pelo Codex (assinatura), avatar falando no idioma, publicadas por `scripts/publica_idiomas.py` em `videos/en/` e `videos/es/`.
 
-Exemplos inspirados no [vÃ­deo do Tristan sobre Claude Mods](https://www.youtube.com/watch?v=LDn7rQKIFro); o roteiro Ã© original. Recurso educacional independente, nÃ£o Ã© produto da Anthropic. ConteÃºdo aberto do [INEMA.CLUB](https://inema.club).
+Exemplos inspirados no [vÃ­deo do Tristan sobre Claude Mods](https://www.youtube.com/watch?v=LDn7rQKIFro); o roteiro Ã© original. Recurso educacional independente, nÃ£o Ã© produto da Anthropic. ConteÃºdo aberto do [ARCKHÉ AI](https://ARCKHÉ AI).
 
 ---
 
-Projeto adaptado da comunidade INEMA TDS - Marca Arckhe
+Projeto adaptado da comunidade ARCKHÉ TDS - Marca Arckhe
