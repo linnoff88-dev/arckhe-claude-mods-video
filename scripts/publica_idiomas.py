@@ -1,7 +1,7 @@
-"""Publica as versÃµes EN/ES do vÃ­deo Claude Mods (v2) em linnoff88-dev/claude-mods-video, sem mexer no vÃ­deo PT.
+"""Publica as versêÂµes EN/ES do vêÂ­deo Claude Mods (v2) em linnoff88-dev/claude-mods-video, sem mexer no vêÂ­deo PT.
 Release video-v2.0.0: claude-mods-completo-16x9-{en,es}.mp4/.srt.
-Pages: videos/en/ e videos/es/ (mesmo visual da pÃ¡gina PT), seletor PT Â· EN Â· ES nas trÃªs pÃ¡ginas e delivery.json com os trÃªs idiomas.
-Idempotente: sobe sÃ³ o que mudou de tamanho; commit sÃ³ se houver diff. Adaptado de iacultivada-video/publica_idiomas.py."""
+Pages: videos/en/ e videos/es/ (mesmo visual da pêÂ¡gina PT), seletor PT êÂ· EN êÂ· ES nas trêÂªs pêÂ¡ginas e delivery.json com os trêÂªs idiomas.
+Idempotente: sobe sêÂ³ o que mudou de tamanho; commit sêÂ³ se houver diff. Adaptado de iacultivada-video/publica_idiomas.py."""
 import html, json, re, subprocess, sys, time, urllib.request
 from pathlib import Path
 
@@ -14,15 +14,15 @@ FONTE = 'https://www.youtube.com/watch?v=LDn7rQKIFro'
 LANGS = ['pt', 'en', 'es']
 T = {
     'en': dict(title='Claude Mods on video', h1='Claude Mods: <b>Claude Code, customized by you.</b>', track='English',
-               desc='Explainer video with Neiâ€™s avatar: what Claude Code Mods are, how they work through events, examples, and how to create your own.',
-               lead='Explainer video with Neiâ€™s avatar and voice: what a mod is, how it works through events (observe, change, or take over), five examples, how to create your own by talking to Claude Code, and the precautions â€” temporary until it becomes a plugin, trusted sources only, and usage limits.',
+               desc='Explainer video with Neiê¢â¬â¢s avatar: what Claude Code Mods are, how they work through events, examples, and how to create your own.',
+               lead='Explainer video with Neiê¢â¬â¢s avatar and voice: what a mod is, how it works through events (observe, change, or take over), five examples, how to create your own by talking to Claude Code, and the precautions ê¢â¬â temporary until it becomes a plugin, trusted sources only, and usage limits.',
                card='Full video', mp4='Download MP4', srt='Download subtitles', cap='Chapters',
-               foot=f'Made with <a href="https://linnoff88-dev.github.io/ v2</a>. Examples inspired by <a href="{FONTE}">Tristanâ€™s video about Claude Mods</a>. Independent educational resource, not an Anthropic product. Open content from <a href="https://ARCKHÉ AI">ARCKHÉ AI</a>.'),
-    'es': dict(title='Claude Mods en video', h1='Claude Mods: <b>el Claude Code que tÃº mismo cambias.</b>', track='EspaÃ±ol',
-               desc='Video explicativo con el avatar de Nei: quÃ© son los Mods de Claude Code, cÃ³mo funcionan por eventos, ejemplos y cÃ³mo crear el tuyo.',
-               lead='Video explicativo con el avatar y la voz de Nei: quÃ© es un mod, cÃ³mo funciona por eventos (observar, modificar o asumir), cinco ejemplos, cÃ³mo crear el tuyo conversando con Claude Code y las precauciones: temporal hasta convertirse en plugin, solo de fuentes confiables y consumo del lÃ­mite.',
-               card='Completo', mp4='Descargar MP4', srt='Descargar subtÃ­tulos', cap='CapÃ­tulos',
-               foot=f'Producido con <a href="https://linnoff88-dev.github.io/ v2</a>. Ejemplos inspirados en el <a href="{FONTE}">video de Tristan sobre Claude Mods</a>. Recurso educativo independiente, no es un producto de Anthropic. Contenido abierto de <a href="https://ARCKHÉ AI">ARCKHÉ AI</a>.'),
+               foot=f'Made with <a href="https://linnoff88-dev.github.io/ v2</a>. Examples inspired by <a href="{FONTE}">Tristanê¢â¬â¢s video about Claude Mods</a>. Independent educational resource, not an Anthropic product. Open content from <a href="https://ARCKHê AI">ARCKHê AI</a>.'),
+    'es': dict(title='Claude Mods en video', h1='Claude Mods: <b>el Claude Code que têÂº mismo cambias.</b>', track='EspaêÂ±ol',
+               desc='Video explicativo con el avatar de Nei: quêÂ© son los Mods de Claude Code, cêÂ³mo funcionan por eventos, ejemplos y cêÂ³mo crear el tuyo.',
+               lead='Video explicativo con el avatar y la voz de Nei: quêÂ© es un mod, cêÂ³mo funciona por eventos (observar, modificar o asumir), cinco ejemplos, cêÂ³mo crear el tuyo conversando con Claude Code y las precauciones: temporal hasta convertirse en plugin, solo de fuentes confiables y consumo del lêÂ­mite.',
+               card='Completo', mp4='Descargar MP4', srt='Descargar subtêÂ­tulos', cap='CapêÂ­tulos',
+               foot=f'Producido con <a href="https://linnoff88-dev.github.io/ v2</a>. Ejemplos inspirados en el <a href="{FONTE}">video de Tristan sobre Claude Mods</a>. Recurso educativo independiente, no es un producto de Anthropic. Contenido abierto de <a href="https://ARCKHê AI">ARCKHê AI</a>.'),
 }
 
 
@@ -37,7 +37,7 @@ def decode_ok(p):
 def seletor(lang, prefixo):
     rot = {'pt': 'PT', 'en': 'EN', 'es': 'ES'}; dest = {'pt': '', 'en': 'en/', 'es': 'es/'}
     itens = [f'<b>{rot[l]}</b>' if l == lang else f'<a href="{prefixo}{dest[l]}" hreflang="{l}">{rot[l]}</a>' for l in LANGS]
-    return '<span style="float:right">' + ' Â· '.join(itens) + '</span>'
+    return '<span style="float:right">' + ' êÂ· '.join(itens) + '</span>'
 
 
 def main():
@@ -52,7 +52,7 @@ def main():
             assert json.loads((v2 / f'final/{b}/alignment.json').read_text())['ratio'] > .90, b
         scenes = json.loads((v2 / f'docs/lesson-{lang}.json').read_text())
         assert len(rec['chapters']) == len(scenes)
-        caps = ''.join(f'<button type="button" data-time="{int(c["time"])}">{int(c["time"]) // 60:02d}:{int(c["time"]) % 60:02d} Â· '
+        caps = ''.join(f'<button type="button" data-time="{int(c["time"])}">{int(c["time"]) // 60:02d}:{int(c["time"]) % 60:02d} êÂ· '
                        f'{html.escape(scenes[c["scene"] - 1]["title"])}</button>' for c in rec['chapters'])
         name = f'claude-mods-completo-16x9-{lang}'
         files = []
@@ -76,13 +76,13 @@ def main():
         (sub / 'completo.vtt').write_text('WEBVTT\n\n' + re.sub(r'(\d\d:\d\d:\d\d),(\d{3})', r'\1.\2', v['files'][1].read_text()))
         url, srt = BASE + v['name'] + '.mp4', BASE + v['name'] + '.srt'
         page = (f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">\n'
-                f'<title>{t["title"]} Â· ARCKHÉ AI</title><meta name="description" content="{html.escape(t["desc"])}">\n'
+                f'<title>{t["title"]} êÂ· ARCKHê AI</title><meta name="description" content="{html.escape(t["desc"])}">\n'
                 + ''.join(f'<link rel="alternate" hreflang="{l}" href="{PAGES}videos/{"" if l == "pt" else l + "/"}">' for l in LANGS) + f'\n{style}</head>\n'
-                f'<body><main><nav>{seletor(lang, "../")}<a href="https://ARCKHÉ AI">ARCKHÉ AI</a> Â· <a href="https://github.com/{GH}">GitHub</a></nav>\n'
+                f'<body><main><nav>{seletor(lang, "../")}<a href="https://ARCKHê AI">ARCKHê AI</a> êÂ· <a href="https://github.com/{GH}">GitHub</a></nav>\n'
                 f'<h1>{t["h1"]}</h1>\n<p class="lead">{html.escape(t["lead"])}</p>\n'
                 f'<section class="card" id="completo"><h2>{t["card"]} <span>{d}</span></h2>\n'
                 f'<video controls preload="metadata" playsinline><source src="{url}" type="video/mp4"><track default kind="subtitles" src="completo.vtt" srclang="{lang}" label="{t["track"]}"></video>\n'
-                f'<p><a href="{url}">{t["mp4"]}</a> Â· <a href="{srt}">{t["srt"]}</a></p>\n'
+                f'<p><a href="{url}">{t["mp4"]}</a> êÂ· <a href="{srt}">{t["srt"]}</a></p>\n'
                 f'<details open><summary>{t["cap"]}</summary>{v["caps"]}</details></section>\n'
                 f'<footer>{t["foot"]}</footer></main>\n'
                 "<script>document.querySelectorAll('[data-time]').forEach(b=>b.addEventListener('click',()=>{const v=b.closest('.card').querySelector('video');v.currentTime=Number(b.dataset.time);v.play();}));</script></body></html>\n")
@@ -96,7 +96,7 @@ def main():
     g = lambda *a: sh('git', '-c', 'user.name=linnoff88-dev', '-c', 'user.email=linnoff88-dev@gmail.com', *a, cwd=REPO)
     g('add', 'videos', 'scripts', 'README.md')
     if subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=REPO).returncode:
-        g('commit', '-m', 'feat: Claude Mods em vÃ­deo em inglÃªs e espanhol (videos/en, videos/es) + seletor de idioma\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>')
+        g('commit', '-m', 'feat: Claude Mods em vêÂ­deo em inglêÂªs e espanhol (videos/en, videos/es) + seletor de idioma\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>')
         g('push', '-q', 'origin', 'HEAD:main')
     for v in vids.values():
         with urllib.request.urlopen(urllib.request.Request(BASE + v['name'] + '.mp4', method='HEAD'), timeout=60) as r:
@@ -111,7 +111,7 @@ def main():
                 pass
             time.sleep(30)
         else:
-            sys.exit(f'push e release feitos; Pages ({lang}) ainda nÃ£o respondeu')
+            sys.exit(f'push e release feitos; Pages ({lang}) ainda nêÂ£o respondeu')
         print('OK', f'{PAGES}videos/{lang}/')
 
 

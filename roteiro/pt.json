@@ -1,101 +1,101 @@
 [
   {
     "chapter": "Abertura",
-    "title": "O Claude Code que vocÃª mesmo muda",
+    "title": "O Claude Code que vocêÂª mesmo muda",
     "kind": "hook",
-    "labels": ["Claude Mods", "lanÃ§ado em 1Âº de outubro", "vocÃª descreve, o Claude constrÃ³i", "dentro do prÃ³prio Claude Code"],
-    "takeaway": "Se vocÃª consegue descrever uma funÃ§Ã£o, o Claude Code consegue construÃ­-la dentro dele mesmo.",
+    "labels": ["Claude Mods", "lanêÂ§ado em 1êÂº de outubro", "vocêÂª descreve, o Claude constrêÂ³i", "dentro do prêÂ³prio Claude Code"],
+    "takeaway": "Se vocêÂª consegue descrever uma funêÂ§êÂ£o, o Claude Code consegue construêÂ­-la dentro dele mesmo.",
     "source": "https://www.youtube.com/watch?v=LDn7rQKIFro",
-    "speech": "E se o Claude Code tivesse exatamente o botÃ£o, o painel ou o atalho que vocÃª sempre quis? Agora ele pode ter. No dia primeiro de outubro chegaram os Mods do Claude Code. A ideia Ã© simples: vocÃª descreve uma funÃ§Ã£o que gostaria de ter, e o prÃ³prio Claude Code constrÃ³i essa funÃ§Ã£o dentro dele mesmo. Eu sou Nei Maldaner, e neste vÃ­deo eu explico o que Ã© um mod, como ele funciona por dentro, o que dÃ¡ para fazer com ele e como criar o seu, com os cuidados que valem a pena."
+    "speech": "E se o Claude Code tivesse exatamente o botêÂ£o, o painel ou o atalho que vocêÂª sempre quis? Agora ele pode ter. No dia primeiro de outubro chegaram os Mods do Claude Code. A ideia êÂ© simples: vocêÂª descreve uma funêÂ§êÂ£o que gostaria de ter, e o prêÂ³prio Claude Code constrêÂ³i essa funêÂ§êÂ£o dentro dele mesmo. Eu sou Nei Maldaner, e neste vêÂ­deo eu explico o que êÂ© um mod, como ele funciona por dentro, o que dêÂ¡ para fazer com ele e como criar o seu, com os cuidados que valem a pena."
   },
   {
-    "chapter": "O que Ã©",
-    "title": "Um mod Ã© um pequeno complemento",
+    "chapter": "O que êÂ©",
+    "title": "Um mod êÂ© um pequeno complemento",
     "kind": "concept",
-    "labels": ["muda a aparÃªncia", "muda o comportamento", "terminal e aba Code do app", "nÃ£o funciona no chat"],
-    "takeaway": "Mod Ã© um complemento que muda como o Claude Code aparece e como ele trabalha.",
+    "labels": ["muda a aparêÂªncia", "muda o comportamento", "terminal e aba Code do app", "nêÂ£o funciona no chat"],
+    "takeaway": "Mod êÂ© um complemento que muda como o Claude Code aparece e como ele trabalha.",
     "source": "https://www.youtube.com/watch?v=LDn7rQKIFro",
-    "speech": "Um mod Ã© um pequeno complemento que muda duas coisas: como o Claude Code aparece na sua tela e como ele trabalha. Ele roda no terminal e tambÃ©m na aba de cÃ³digo do aplicativo de desktop. AtenÃ§Ã£o a um detalhe: no chat comum do Claude, ele nÃ£o funciona. Mod Ã© coisa do Claude Code. Se vocÃª jÃ¡ atualizou o seu, o recurso jÃ¡ estÃ¡ lÃ¡, pronto para usar, sem nada para instalar Ã  parte."
+    "speech": "Um mod êÂ© um pequeno complemento que muda duas coisas: como o Claude Code aparece na sua tela e como ele trabalha. Ele roda no terminal e tambêÂ©m na aba de cêÂ³digo do aplicativo de desktop. AtenêÂ§êÂ£o a um detalhe: no chat comum do Claude, ele nêÂ£o funciona. Mod êÂ© coisa do Claude Code. Se vocêÂª jêÂ¡ atualizou o seu, o recurso jêÂ¡ estêÂ¡ lêÂ¡, pronto para usar, sem nada para instalar êÂ  parte."
   },
   {
-    "chapter": "O que Ã©",
+    "chapter": "O que êÂ©",
     "title": "Skill, conector e mod",
     "kind": "compare",
-    "labels": ["Skill: ensina como fazer", "Conector: liga a outro app", "Mod: roda dentro do Claude Code", "pode mudar a prÃ³pria tela"],
+    "labels": ["Skill: ensina como fazer", "Conector: liga a outro app", "Mod: roda dentro do Claude Code", "pode mudar a prêÂ³pria tela"],
     "takeaway": "Skill e conector agem de fora; o mod age de dentro.",
     "source": "https://www.youtube.com/watch?v=LDn7rQKIFro",
-    "speech": "Talvez vocÃª pense: mas eu jÃ¡ tenho skills e conectores. Tem, e eles continuam Ãºteis. SÃ³ que eles agem de fora. A skill ensina o Claude a fazer uma tarefa. O conector liga o Claude a outro aplicativo. O mod Ã© diferente: ele roda dentro do prÃ³prio Claude Code. Por isso ele consegue mexer no que vocÃª vÃª. DÃ¡ para colocar um botÃ£o, abrir um painel do lado, criar uma faixa acima do campo de digitaÃ§Ã£o, mostrar um aviso, criar um comando novo com barra, e atÃ© um joguinho para passar o tempo enquanto o Claude trabalha."
+    "speech": "Talvez vocêÂª pense: mas eu jêÂ¡ tenho skills e conectores. Tem, e eles continuam êÂºteis. SêÂ³ que eles agem de fora. A skill ensina o Claude a fazer uma tarefa. O conector liga o Claude a outro aplicativo. O mod êÂ© diferente: ele roda dentro do prêÂ³prio Claude Code. Por isso ele consegue mexer no que vocêÂª vêÂª. DêÂ¡ para colocar um botêÂ£o, abrir um painel do lado, criar uma faixa acima do campo de digitaêÂ§êÂ£o, mostrar um aviso, criar um comando novo com barra, e atêÂ© um joguinho para passar o tempo enquanto o Claude trabalha."
   },
   {
     "chapter": "Por dentro",
-    "title": "Tudo Ã© evento",
+    "title": "Tudo êÂ© evento",
     "kind": "diagram",
     "labels": ["Claude age", "dispara um evento", "o mod observa", "o mod altera", "o mod responde sozinho"],
     "takeaway": "Um mod escuta eventos e decide: observar, alterar ou assumir.",
     "source": "https://www.youtube.com/watch?v=LDn7rQKIFro",
-    "speech": "Como um mod consegue mudar a tela? Cada vez que o Claude faz alguma coisa, como rodar um comando, chamar uma ferramenta ou receber o seu pedido, ele emite um sinal, um evento. O mod Ã© um pedacinho de cÃ³digo que fica escutando esses eventos. Quando um evento chega, ele tem trÃªs caminhos. Pode sÃ³ observar e seguir em frente. Pode alterar o evento antes que o resto veja. Ou pode responder sozinho, e o comportamento normal nem acontece. Por exemplo: um mod pode bloquear um comando perigoso antes de ele rodar, ou reescrever o seu pedido antes de ele chegar ao modelo."
+    "speech": "Como um mod consegue mudar a tela? Cada vez que o Claude faz alguma coisa, como rodar um comando, chamar uma ferramenta ou receber o seu pedido, ele emite um sinal, um evento. O mod êÂ© um pedacinho de cêÂ³digo que fica escutando esses eventos. Quando um evento chega, ele tem trêÂªs caminhos. Pode sêÂ³ observar e seguir em frente. Pode alterar o evento antes que o resto veja. Ou pode responder sozinho, e o comportamento normal nem acontece. Por exemplo: um mod pode bloquear um comando perigoso antes de ele rodar, ou reescrever o seu pedido antes de ele chegar ao modelo."
   },
   {
     "chapter": "Exemplos",
-    "title": "VisÃ£o limpa",
+    "title": "VisêÂ£o limpa",
     "kind": "demo",
-    "labels": ["esconde o ruÃ­do tÃ©cnico", "mostra uma lista de tarefas", "marca o que terminou", "resumo no final"],
-    "takeaway": "O mesmo trabalho, mostrado sÃ³ com o que importa para vocÃª.",
+    "labels": ["esconde o ruêÂ­do têÂ©cnico", "mostra uma lista de tarefas", "marca o que terminou", "resumo no final"],
+    "takeaway": "O mesmo trabalho, mostrado sêÂ³ com o que importa para vocêÂª.",
     "source": "https://www.youtube.com/watch?v=LDn7rQKIFro",
-    "speech": "Vamos aos exemplos, inspirados no vÃ­deo do Tristan que me apresentou o assunto. O primeiro Ã© uma visÃ£o limpa. Muita gente nÃ£o quer ver cada ferramenta chamada e cada linha de cÃ³digo passando. Quer saber sÃ³ o que estÃ¡ sendo feito, quanto falta e o que vem depois. O mod intercepta as linhas tÃ©cnicas, esconde da tela e mostra uma lista simples de tarefas. Cada etapa concluÃ­da ganha um tique. No final, vocÃª recebe um resumo curto do que foi feito. O trabalho Ã© o mesmo; muda o que vocÃª enxerga."
+    "speech": "Vamos aos exemplos, inspirados no vêÂ­deo do Tristan que me apresentou o assunto. O primeiro êÂ© uma visêÂ£o limpa. Muita gente nêÂ£o quer ver cada ferramenta chamada e cada linha de cêÂ³digo passando. Quer saber sêÂ³ o que estêÂ¡ sendo feito, quanto falta e o que vem depois. O mod intercepta as linhas têÂ©cnicas, esconde da tela e mostra uma lista simples de tarefas. Cada etapa concluêÂ­da ganha um tique. No final, vocêÂª recebe um resumo curto do que foi feito. O trabalho êÂ© o mesmo; muda o que vocêÂª enxerga."
   },
   {
     "chapter": "Exemplos",
     "title": "Painel de controle",
     "kind": "demo",
-    "labels": ["modelo com um clique", "esforÃ§o com um clique", "barra de status muda na hora", "menos comandos com barra"],
-    "takeaway": "Atalhos visuais para o que vocÃª troca toda hora.",
+    "labels": ["modelo com um clique", "esforêÂ§o com um clique", "barra de status muda na hora", "menos comandos com barra"],
+    "takeaway": "Atalhos visuais para o que vocêÂª troca toda hora.",
     "source": "https://www.youtube.com/watch?v=LDn7rQKIFro",
-    "speech": "O segundo exemplo Ã© um painel de controle. Hoje, para trocar o modelo, vocÃª digita barra model e escolhe na lista. Para mudar o quanto o Claude pensa, digita barra effort. Funciona, mas cansa. Com um mod, modelo e esforÃ§o viram botÃµes numa barra prÃ³pria, e a linha de status embaixo muda na hora. Ã‰ uma coisa pequena, mas Ã© exatamente o tipo de atrito do dia a dia que um mod resolve em minutos."
+    "speech": "O segundo exemplo êÂ© um painel de controle. Hoje, para trocar o modelo, vocêÂª digita barra model e escolhe na lista. Para mudar o quanto o Claude pensa, digita barra effort. Funciona, mas cansa. Com um mod, modelo e esforêÂ§o viram botêÂµes numa barra prêÂ³pria, e a linha de status embaixo muda na hora. êâ° uma coisa pequena, mas êÂ© exatamente o tipo de atrito do dia a dia que um mod resolve em minutos."
   },
   {
     "chapter": "Exemplos",
     "title": "Uma doca de agentes",
     "kind": "demo",
-    "labels": ["escolher quantos agentes", "um cartÃ£o por agente", "barra de progresso de cada um", "alerta de consumo da cota"],
-    "takeaway": "Ver e controlar o time de agentes â€” com um freio no consumo.",
+    "labels": ["escolher quantos agentes", "um cartêÂ£o por agente", "barra de progresso de cada um", "alerta de consumo da cota"],
+    "takeaway": "Ver e controlar o time de agentes ê¢â¬â com um freio no consumo.",
     "source": "https://www.youtube.com/watch?v=LDn7rQKIFro",
-    "speech": "O terceiro Ã© uma doca de agentes. Num trabalho grande, o Claude divide partes entre agentes auxiliares, que sÃ£o cÃ³pias dele cuidando cada uma de um pedaÃ§o. O problema Ã© que normalmente vocÃª nÃ£o vÃª o que cada um estÃ¡ fazendo, nem escolhe quantos trabalham ao mesmo tempo. Com o mod, vocÃª escolhe o tamanho do time, e cada agente ganha um cartÃ£o com a sua tarefa e uma barra de progresso. No fim, o Claude junta tudo num resultado sÃ³. Um cuidado importante: time grande consome a sua cota muito mais rÃ¡pido. Um bom mod avisa antes de vocÃª exagerar."
+    "speech": "O terceiro êÂ© uma doca de agentes. Num trabalho grande, o Claude divide partes entre agentes auxiliares, que sêÂ£o cêÂ³pias dele cuidando cada uma de um pedaêÂ§o. O problema êÂ© que normalmente vocêÂª nêÂ£o vêÂª o que cada um estêÂ¡ fazendo, nem escolhe quantos trabalham ao mesmo tempo. Com o mod, vocêÂª escolhe o tamanho do time, e cada agente ganha um cartêÂ£o com a sua tarefa e uma barra de progresso. No fim, o Claude junta tudo num resultado sêÂ³. Um cuidado importante: time grande consome a sua cota muito mais rêÂ¡pido. Um bom mod avisa antes de vocêÂª exagerar."
   },
   {
     "chapter": "Exemplos",
-    "title": "GeraÃ§Ã£o com confirmaÃ§Ã£o e um jogo",
+    "title": "GeraêÂ§êÂ£o com confirmaêÂ§êÂ£o e um jogo",
     "kind": "demo",
-    "labels": ["imagem e vÃ­deo sem sair do Claude", "mostra o custo antes", "sÃ³ gera depois do sim", "jogo enquanto espera"],
-    "takeaway": "Mod tambÃ©m serve para proteger crÃ©dito â€” e para se divertir.",
+    "labels": ["imagem e vêÂ­deo sem sair do Claude", "mostra o custo antes", "sêÂ³ gera depois do sim", "jogo enquanto espera"],
+    "takeaway": "Mod tambêÂ©m serve para proteger crêÂ©dito ê¢â¬â e para se divertir.",
     "source": "https://www.youtube.com/watch?v=LDn7rQKIFro",
-    "speech": "Mais dois exemplos. Um mod pode ligar o Claude Code a um serviÃ§o de geraÃ§Ã£o de imagem e vÃ­deo, usando um conector que vocÃª jÃ¡ tem. O detalhe que eu mais gostei: antes de gerar, ele mostra quantos crÃ©ditos vai gastar e para, esperando o seu sim. Esse Ã© o tipo de regra que eu quero em tudo que custa dinheiro. E dÃ¡ para fazer coisas sÃ³ por diversÃ£o, como um joguinho de corrida no terminal que, de vez em quando, faz uma pergunta sobre o prÃ³prio Claude. Melhor do que ficar olhando a tela esperando terminar."
+    "speech": "Mais dois exemplos. Um mod pode ligar o Claude Code a um serviêÂ§o de geraêÂ§êÂ£o de imagem e vêÂ­deo, usando um conector que vocêÂª jêÂ¡ tem. O detalhe que eu mais gostei: antes de gerar, ele mostra quantos crêÂ©ditos vai gastar e para, esperando o seu sim. Esse êÂ© o tipo de regra que eu quero em tudo que custa dinheiro. E dêÂ¡ para fazer coisas sêÂ³ por diversêÂ£o, como um joguinho de corrida no terminal que, de vez em quando, faz uma pergunta sobre o prêÂ³prio Claude. Melhor do que ficar olhando a tela esperando terminar."
   },
   {
     "chapter": "Como criar",
-    "title": "VocÃª descreve, ele constrÃ³i",
+    "title": "VocêÂª descreve, ele constrêÂ³i",
     "kind": "steps",
-    "labels": ["atualize o Claude Code", "descreva o mod que quer", "aceite o recarregamento", "peÃ§a ajustes conversando"],
-    "takeaway": "Criar um mod Ã© uma conversa, nÃ£o um projeto de programaÃ§Ã£o.",
+    "labels": ["atualize o Claude Code", "descreva o mod que quer", "aceite o recarregamento", "peêÂ§a ajustes conversando"],
+    "takeaway": "Criar um mod êÂ© uma conversa, nêÂ£o um projeto de programaêÂ§êÂ£o.",
     "source": "https://www.youtube.com/watch?v=LDn7rQKIFro",
-    "speech": "Como criar o seu? Primeiro, atualize o Claude Code. Os mods pedem uma versÃ£o recente: a da minha mÃ¡quina Ã© a dois ponto um ponto duzentos e oitenta e nove. Depois, Ã© sÃ³ descrever o mod que vocÃª quer. O Claude Code jÃ¡ vem com uma habilidade que ensina a ele como construir mods. Ele escreve os arquivos e pergunta se vocÃª quer ativar o recarregamento automÃ¡tico nesta sessÃ£o. Responda que sim. Quando ele terminar, o mod aparece. NÃ£o gostou de alguma coisa? Fale como falaria com uma pessoa: o que incomodou e o que mudar. Ele ajusta e recarrega."
+    "speech": "Como criar o seu? Primeiro, atualize o Claude Code. Os mods pedem uma versêÂ£o recente: a da minha mêÂ¡quina êÂ© a dois ponto um ponto duzentos e oitenta e nove. Depois, êÂ© sêÂ³ descrever o mod que vocêÂª quer. O Claude Code jêÂ¡ vem com uma habilidade que ensina a ele como construir mods. Ele escreve os arquivos e pergunta se vocêÂª quer ativar o recarregamento automêÂ¡tico nesta sessêÂ£o. Responda que sim. Quando ele terminar, o mod aparece. NêÂ£o gostou de alguma coisa? Fale como falaria com uma pessoa: o que incomodou e o que mudar. Ele ajusta e recarrega."
   },
   {
     "chapter": "Como criar",
-    "title": "TemporÃ¡rio, atÃ© virar plugin",
+    "title": "TemporêÂ¡rio, atêÂ© virar plugin",
     "kind": "concept",
-    "labels": ["mod nasce temporÃ¡rio", "peÃ§a para salvar como plugin", "compartilhar via /plugin", "sem custo extra, mas usa a cota"],
-    "takeaway": "Gostou do mod? Salve como plugin, senÃ£o ele some com a sessÃ£o.",
+    "labels": ["mod nasce temporêÂ¡rio", "peêÂ§a para salvar como plugin", "compartilhar via /plugin", "sem custo extra, mas usa a cota"],
+    "takeaway": "Gostou do mod? Salve como plugin, senêÂ£o ele some com a sessêÂ£o.",
     "source": "https://www.youtube.com/watch?v=LDn7rQKIFro",
-    "speech": "TrÃªs cuidados. Primeiro: o mod que o Claude cria para vocÃª nasce temporÃ¡rio, ligado Ã quela sessÃ£o. Gostou? PeÃ§a para ele salvar como plugin e instalar; assim ele aparece sempre que vocÃª abrir o Claude Code. Segundo: mod Ã© um tipo de plugin. Se alguÃ©m compartilhar um com vocÃª, ele se instala pelo comando barra plugin, como qualquer outro. E aqui vale a mesma regra de sempre: sÃ³ instale o que vem de fonte confiÃ¡vel, porque um mod roda dentro do seu Claude Code. Terceiro: mod nÃ£o tem custo extra, mas exige um plano pago com Claude Code, e um mod que trabalha em segundo plano tambÃ©m consome a sua cota."
+    "speech": "TrêÂªs cuidados. Primeiro: o mod que o Claude cria para vocêÂª nasce temporêÂ¡rio, ligado êÂ quela sessêÂ£o. Gostou? PeêÂ§a para ele salvar como plugin e instalar; assim ele aparece sempre que vocêÂª abrir o Claude Code. Segundo: mod êÂ© um tipo de plugin. Se alguêÂ©m compartilhar um com vocêÂª, ele se instala pelo comando barra plugin, como qualquer outro. E aqui vale a mesma regra de sempre: sêÂ³ instale o que vem de fonte confiêÂ¡vel, porque um mod roda dentro do seu Claude Code. Terceiro: mod nêÂ£o tem custo extra, mas exige um plano pago com Claude Code, e um mod que trabalha em segundo plano tambêÂ©m consome a sua cota."
   },
   {
     "chapter": "Fechamento",
-    "title": "Uma funÃ§Ã£o que vocÃª descreveu",
+    "title": "Uma funêÂ§êÂ£o que vocêÂª descreveu",
     "kind": "cta",
-    "labels": ["mod = funÃ§Ã£o que vocÃª descreveu", "comece por um atrito pequeno", "ARCKHÉ AI"],
+    "labels": ["mod = funêÂ§êÂ£o que vocêÂª descreveu", "comece por um atrito pequeno", "ARCKHê AI"],
     "takeaway": "Comece pelo atrito que mais te incomoda hoje.",
-    "source": "https://ARCKHÉ AI",
-    "speech": "Resumindo: um mod Ã© uma funÃ§Ã£o que vocÃª descreveu e o Claude Code construiu dentro dele mesmo. Minha sugestÃ£o Ã© comeÃ§ar pequeno: pense no atrito que mais te incomoda hoje no Claude Code, um comando que vocÃª digita toda hora, uma informaÃ§Ã£o que vocÃª queria ver sempre, e peÃ§a um mod para isso. Cursos, guias e kits sobre Claude Code e agentes estÃ£o no ARCKHÉ ponto club, abertos e gratuitos. AtÃ© o prÃ³ximo vÃ­deo."
+    "source": "https://ARCKHê AI",
+    "speech": "Resumindo: um mod êÂ© uma funêÂ§êÂ£o que vocêÂª descreveu e o Claude Code construiu dentro dele mesmo. Minha sugestêÂ£o êÂ© comeêÂ§ar pequeno: pense no atrito que mais te incomoda hoje no Claude Code, um comando que vocêÂª digita toda hora, uma informaêÂ§êÂ£o que vocêÂª queria ver sempre, e peêÂ§a um mod para isso. Cursos, guias e kits sobre Claude Code e agentes estêÂ£o no ARCKHê ponto club, abertos e gratuitos. AtêÂ© o prêÂ³ximo vêÂ­deo."
   }
 ]
